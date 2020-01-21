@@ -1,4 +1,4 @@
-package com.xiaomi.mipushdemo;
+package com.xiaomi.xiaomipush;
 
 import android.annotation.SuppressLint;
 import android.content.ComponentName;
@@ -9,6 +9,7 @@ import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.clevertap.xiaomipush.R;
 import com.xiaomi.mipush.sdk.ErrorCode;
 import com.xiaomi.mipush.sdk.MiPushClient;
 import com.xiaomi.mipush.sdk.MiPushCommandMessage;

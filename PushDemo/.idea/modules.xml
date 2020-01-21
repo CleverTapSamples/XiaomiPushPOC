@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PushDemo.iml" filepath="$PROJECT_DIR$/PushDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../PushDemo4Studio.iml" filepath="$PROJECT_DIR$/../PushDemo4Studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../XiaomiPushPOC.iml" filepath="$PROJECT_DIR$/../XiaomiPushPOC.iml" />
     </modules>
   </component>
 </project>

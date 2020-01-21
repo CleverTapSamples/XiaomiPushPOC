@@ -1,4 +1,4 @@
-package com.xiaomi.mipushdemo;
+package com.xiaomi.xiaomipush;
 
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
@@ -27,9 +27,9 @@ import java.util.List;
 public class DemoApplication extends Application {
 
     // user your appid the key.
-    private static final String APP_ID = "2882303761518303253";
+    private static final String APP_ID = "2882303761518309701";
     // user your appid the key.
-    private static final String APP_KEY = "5641830353253";
+    private static final String APP_KEY = "5851830965701";
 
     // 此TAG在adb logcat中检索自己所需要的信息， 只需在命令行终端输入 adb logcat | grep
     // com.xiaomi.mipushdemo

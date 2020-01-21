@@ -1,19 +1,23 @@
-package com.xiaomi.mipushdemo;
+package com.xiaomi.xiaomipush;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.clevertap.xiaomipush.R;
 import com.xiaomi.mipush.sdk.MiPushClient;
-import com.xiaomi.mipushdemo.TimeIntervalDialog.TimeIntervalInterface;
+import com.xiaomi.xiaomipush.TimeIntervalDialog.TimeIntervalInterface;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import static com.xiaomi.xiaomipush.DemoApplication.TAG;
 
 /**
  * 1、本 demo 可以直接运行，设置 topic 和 alias。
@@ -35,6 +39,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         DemoApplication.setMainActivity(this);
         mLogView = (TextView) findViewById(R.id.log);
+        Log.d(TAG,"Xiaomi token - "+MiPushClient.getRegId(this));
         // 设置别名
         findViewById(R.id.set_alias).setOnClickListener(new OnClickListener() {
 

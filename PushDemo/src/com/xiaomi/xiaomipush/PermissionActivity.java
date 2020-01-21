@@ -1,4 +1,4 @@
-package com.xiaomi.mipushdemo;
+package com.xiaomi.xiaomipush;
 
 import android.app.Activity;
 import android.content.Intent;
